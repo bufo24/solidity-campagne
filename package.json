@@ -1,0 +1,33 @@
+{
+  "name": "campagne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bufo24/solidity-campagne.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bufo24/solidity-campagne/issues"
+  },
+  "homepage": "https://github.com/bufo24/solidity-campagne#readme",
+  "dependencies": {
+    "electron": "^15.1.2",
+    "events": "^3.3.0",
+    "hardhat": "^2.6.4",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.7"
+  }
+}
